@@ -479,7 +479,7 @@ void read_FTLconf(void)
 
 	// RATE_LIMIT
 	// defaults to: 1000 queries / 60 seconds
-	config.rate_limit.count = 1000;
+	config.rate_limit.count = 1500;
 	config.rate_limit.interval = 60;
 	buffer = parse_FTLconf(fp, "RATE_LIMIT");
 
